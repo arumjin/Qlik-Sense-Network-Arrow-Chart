@@ -33,7 +33,7 @@ https://github.com/miclae76/network-vis-chart
 The string field can work.
 
 ## Sample App
-https://github.com/arumjin/Qlik-Sense-Network-Arrow-Chart/blob/main/qvf/Arrow%20Network%20Chart%20Sample.qvf
+https://github.com/arumjin/Qlik-Sense-Network-Arrow-Chart/tree/main/qvf
 
  ```
 NodeData:
@@ -43,5 +43,6 @@ Load Chr(rand()*26+65) as Node,
      Rand()*10 as EdgeSize
 AutoGenerate 50;
  ```
- 
+
+## with Qlik Sense bundle
 ![with Qlik Extension](https://user-images.githubusercontent.com/7877793/113829925-072ffd80-97c1-11eb-9536-9bfb3bf25137.png)
