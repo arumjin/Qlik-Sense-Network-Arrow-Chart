@@ -32,3 +32,15 @@ https://github.com/miclae76/network-vis-chart
 ## Node Identifier
 The string field can work.
 
+## Sample App
+https://github.com/arumjin/Qlik-Sense-Network-Arrow-Chart/blob/main/qvf/Arrow%20Network%20Chart%20Sample.qvf
+
+'''
+NodeData:
+Load Chr(rand()*26+65) as Node,
+	 Chr(rand()*10+65) as ParentNode,
+     Rand()*10 as NodeSize,
+     Rand()*10 as EdgeSize
+AutoGenerate 50;
+'''
+![with Qlik Extension](https://user-images.githubusercontent.com/7877793/113829925-072ffd80-97c1-11eb-9536-9bfb3bf25137.png)
